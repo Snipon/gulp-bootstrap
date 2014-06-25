@@ -26,5 +26,6 @@
         </div>
       </footer>
     </div>
+    <script type="text/javascript" src="js/vendor.min.js"></script>
   </body>
 </html>
