@@ -1,0 +1,18 @@
+{
+  "name": "Sandbox",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Snipon/grunt-bootstrap.git"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-livereload": "latest",
+    "gulp-compass": "latest",
+    "gulp-coffee": "latest",
+    "gulp-concat": "latest",
+    "gulp-uglify": "latest",
+    "gulp-notify": "latest",
+    "gulp-util": "latest"
+  }
+}

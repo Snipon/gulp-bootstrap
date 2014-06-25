@@ -1,0 +1,39 @@
+@import 'compass/css3';
+@import 'vars';
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  background: $white;
+  color: $black;
+}
+
+header,
+footer {
+  background: $white;
+  position: relative;
+}
+
+header {
+  border-bottom: 1px solid $black;
+}
+
+footer {
+  border-top: 1px solid $black;
+}
+
+.inner {
+  padding: 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+main {
+  .inner {
+    background: $white;
+    @include box-shadow(0 0 10px rgba(black, 0.5));
+  }
+}
